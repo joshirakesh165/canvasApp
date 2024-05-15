@@ -8,7 +8,7 @@ const app = express();
 // const URL = 'http://localhost:4200'
 // app.use(cors({origin: URL}))
 const httpServer = createServer(app);
-const io = new Server(httpServer, { cors: URL });
+const io = new Server(httpServer);
 
 io.on("connection", (socket) => {
   console.log("server connected")
