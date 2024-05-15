@@ -1,0 +1,37 @@
+ul {
+    margin-top: 0;
+    border-top: 0;
+}
+li {
+    list-style: none;
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+
+   
+}
+
+.input-item{
+    padding: 10px;
+
+
+}
+
+.item-icon {
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.border {
+    border: 1px solid white;
+}
+
+.hide {
+    display: none;
+}
