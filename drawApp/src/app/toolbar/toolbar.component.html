@@ -1,0 +1,7 @@
+<div class="toolbar">
+    <div class="icon-container">
+        @for (icon of icons; track icon) {
+            <i [class]="icon.class" [title]="icon.name | uppercase" [ngClass]="{'active-icon': selectedIcon == icon.name}" (click)="onIconClick(icon.name)"></i>
+        }
+    </div>  
+</div>
